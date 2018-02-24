@@ -3,3 +3,7 @@
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 {
 }
+
+void MainWindow::initUI()
+{
+}

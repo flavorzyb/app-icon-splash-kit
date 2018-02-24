@@ -29,3 +29,7 @@ SOURCES += \
 
 HEADERS += \
         $$PWD/include/mainwindow.h
+
+TRANSLATIONS = \
+        $$PWD/translations/icon-splash_en_CN.ts\
+        $$PWD/translations/icon-splash_zh_CN.ts

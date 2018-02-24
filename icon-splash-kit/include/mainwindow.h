@@ -12,6 +12,9 @@ public:
 signals:
 
 public slots:
+
+protected:
+    void initUI();
 };
 
 #endif // MAINWINDOW_H
