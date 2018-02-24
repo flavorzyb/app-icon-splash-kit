@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QWidget>
 
 class MainWindow : public QMainWindow
 {
@@ -15,6 +16,10 @@ public slots:
 
 protected:
     void initUI();
+    void center();
+
+private:
+    QWidget * mainWidget;
 };
 
 #endif // MAINWINDOW_H
